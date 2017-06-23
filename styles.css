@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: black;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  padding-bottom: -20px;
+
+}
+
+nav {
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+
+
+.button{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+
+
+}
+
+#btnOne {
+  background-color: red;
+  border: 10px solid red;
+}
+
+#btnTwo {
+  background-color: blue;
+  border: 10px solid blue;
+}
+
+#btnThree {
+  background-color: green;
+  border: 10px solid green;
+}
+
+#btnFour {
+background-color: yellow;
+border: 10px solid yellow;
+
+}
+
+
+.blockRed {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  float:left;
+  margin: 5px
+}
+
+.blockBlue {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  float:left;
+  margin: 5px
+}
+
+.blockGreen {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  float:left;
+  margin: 5px
+}
+
+.blockYellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  float:left;
+  margin: 5px
+}
+
+#container {
+  max-width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
