@@ -20,10 +20,10 @@ $('document').ready(function(){
     console.log('red button clicked');
   });
 //Click handlers for Counting
-var numClickedRed = 1
-var numClickedBlue = 1
-var numClickedGreen = 1
-var numClickedYellow = 1
+var numClickedRed = 1;
+var numClickedBlue = 1;
+var numClickedGreen = 1;
+var numClickedYellow = 1;
 
   $('#btnOne').on('click', function() {
     $('#redCount').empty();
